@@ -1,0 +1,34 @@
+//  Runset file generated on Sat Jun 22 11:47:14 2024
+//  by Calibre Interactive v2022.4_37.20    Fri Dec 2 17:41:17 PST 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+lvs.rulesFile.value = "/opt/pdk/scl_pdk/design_kit/drclvs_rsf/LVS.header"
+lvs.layout.layoutFile.value = "inverter.calibre.db"
+cmn.layout.defFiles.value = [ "inverter.def" ]
+lvs.layout.topCellLibrary.value = "ohm"
+cmn.layout.topCellLibraryFDI.value = "ohm"
+lvs.layout.topCell.value = "inverter"
+lvs.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+lvs.layout.layoutNetlist.value = "inverter.sp"
+lvs.source2.sourceFile.value = "inverter.sp"
+lvs.source2.topCellLibrary.value = "ohm"
+lvs.source2.topCellLibraryFDI.value = "ohm"
+lvs.source2.topCell.value = "inverter"
+lvs.source2.topCellFDI.value = "inverter"
+lvs.source2.topCellView.value = "schematic"
+lvs.source2.topCellViewFDI.value = "schematic"
+lvs.source.sourceFile.value = "inverter.src.net"
+lvs.source.topCellLibrary.value = "ohm"
+lvs.source.topCellLibraryFDI.value = "ohm"
+lvs.source.topCell.value = "inverter"
+lvs.source.topCellFDI.value = "inverter"
+lvs.source.topCellView.value = "schematic"
+lvs.source.topCellViewFDI.value = "schematic"
+lvs.reports.lvsReport.value = "inverter.lvs.report"
+lvs.ercdb.resultsFile.value = "inverter.erc.results"
+lvs.ercSummaryReport.report.value = "inverter.erc.summary"
+
