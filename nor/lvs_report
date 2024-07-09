@@ -1,0 +1,32 @@
+//  Runset file generated on Thu Jun 13 16:31:31 2024
+//  by Calibre Interactive v2022.4_37.20    Fri Dec 2 17:41:17 PST 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+xrc.rulesFile.value = "/opt/pdk/scl_pdk/design_kit/pex_rsf/calibre_xrc/RCX_4LM_new.header"
+xrc.layout.layoutFile.value = "nor.calibre.db"
+cmn.layout.defFiles.value = [ "nor.def" ]
+xrc.layout.topCellLibrary.value = "ohm"
+cmn.layout.topCellLibraryFDI.value = "ohm"
+xrc.layout.topCell.value = "nor"
+xrc.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+xrc.source.sourceFile.value = "nor.src.net"
+xrc.source.topCellLibrary.value = "ohm"
+xrc.source.topCellLibraryFDI.value = "ohm"
+xrc.source.topCell.value = "nor"
+xrc.source.topCellFDI.value = "nor"
+xrc.source.topCellView.value = "schematic"
+xrc.source.topCellViewFDI.value = "schematic"
+xrc.pexNetlist.netlistFile.value = "nor.pex.netlist"
+xrc.pexNetlist.netlistFormat.value = "CALIBREVIEW"
+xrc.reports.lvsReport.value = "nor.lvs.report"
+xrc.reports.pexReport.value = "nor.pex.report"
+xrc.supply.groundNames.value = [ "gnd!" ]
+xrc.supply.groundNames.specified = true
+
+xrc.blockExtraction.setADMSNetlistOutputFiles("{nor nor.pex.netlist} ")
+xrc.blockExtraction.setADMSNetlistOutputVerilogModules("{nor nor} ")
+
